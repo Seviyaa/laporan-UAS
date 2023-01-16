@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(-20deg, #ff79ed 0%, #59b4ff 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+p {
+    margin: 0 auto;
+    padding-top: 20x;
+    width: 450px;
+    height: auto;
+    color: #000000;
+    font-size: 20px;
+}
+.img {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+ul {
+    margin-left: -50px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+h2 {
+    outline-style: double;
+}
+h3 {
+    outline-style: double;
+}
+h4 {
+    outline-style: double
+}
+div {
+    outline-style: double ;
+}

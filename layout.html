@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>my profile</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url(tembok.jpg);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 526px; /* only for demonstration, should be removed */
+  background-image: url(tembok.jpg);
+  padding: 20px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10%;
+  background-image: url(tengah.jpg);
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-image: url(tengah.jpg);
+  color: white;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #666;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 18px;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>profil mahasiswa</h2>
+</header>
+
+<section>
+  <nav>
+    <center>
+    <ul>
+      <li><a href="index.html"> <button>home</button></li><br>
+      <li><a href="profile.html"> <button>profile</button></li><br>
+      <li><a href="layout.html"> <button>layout</button></li><br>
+      <li><a href="https://trisnaseviya.wordpress.com"> <button>website</button></li><br>
+    </ul>
+    </center>
+    
+  </nav>
+  <article>
+    <h1>my profile</h1>
+    <center><img src="gue.jpg" width="250px" height="320px"></center>
+    <center><p><b>misii misiii.... numpang lewatt!!</b></p></center>
+    <center><p>perkenalkan, saya viya mahasiswa dari universitas yudharta pasuruan prodi teknik informatika. nah, disini saya memenuhi tugas pemrograman web. dan langsung saja simak profilkuu. </p></center>
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
